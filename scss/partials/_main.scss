@@ -1,5 +1,4 @@
 @import "../variables/variables";
-@import "../sass/media";
 main {
   width: 100%;
   height: auto;
@@ -42,9 +41,17 @@ main {
   }
 
   @media (max-width: 500px) {
-    img {
-      width: 70px;
-      height: 80px;
+    .Titulo {
+      font-size: 3em;
+    }
+
+    .subtitulo {
+      font-size: 1.9em;
+    }
+
+    .imgContenido {
+      width: 10em;
+      height: 7em;
     }
   }
 }

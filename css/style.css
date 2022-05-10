@@ -55,24 +55,6 @@ header {
     margin-right: 2em;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; }
 
-@media (max-width: 500px) {
-  img {
-    width: 20px;
-    height: 50px; }
-  h1 {
-    font-size: 2em;
-    border: none; }
-  div {
-    width: 95%;
-    height: auto; }
-    div a {
-      font-size: 1.5em; }
-    div p {
-      font-size: 1em; }
-    div iframe {
-      width: 20em;
-      height: 15em; } }
-
 main {
   width: 100%;
   height: auto; }
@@ -102,27 +84,13 @@ main {
     main div p {
       font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
   @media (max-width: 500px) {
-    main img {
-      width: 70px;
-      height: 80px; } }
-
-@media (max-width: 500px) {
-  img {
-    width: 20px;
-    height: 50px; }
-  h1 {
-    font-size: 2em;
-    border: none; }
-  div {
-    width: 95%;
-    height: auto; }
-    div a {
-      font-size: 1.5em; }
-    div p {
-      font-size: 1em; }
-    div iframe {
-      width: 20em;
-      height: 15em; } }
+    main .Titulo {
+      font-size: 3em; }
+    main .subtitulo {
+      font-size: 1.9em; }
+    main .imgContenido {
+      width: 10em;
+      height: 7em; } }
 
 * {
   margin: 0;
