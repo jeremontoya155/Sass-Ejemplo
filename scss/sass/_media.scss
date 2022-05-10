@@ -1,0 +1,29 @@
+@media (max-width: 500px) {
+  img {
+    width: 20px;
+    height: 50px;
+  }
+
+  h1 {
+    font-size: 2em;
+    border: none;
+  }
+
+  div {
+    width: 95%;
+    height: auto;
+
+    a {
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+    iframe {
+      width: 20em;
+      height: 15em;
+    }
+  }
+}

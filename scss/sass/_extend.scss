@@ -1,0 +1,21 @@
+@import "../variables/variables";
+
+.header-footer {
+  width: $ancho;
+  height: auto;
+  display: flex;
+  flex-wrap: $encimar;
+  justify-content: $acomodar;
+  background-color: red;
+  font-size: $fuenteUno;
+
+  a {
+    font-size: 2em;
+    font-family: $fuenteUno;
+  }
+
+  img {
+    height: $icono;
+    width: $icono;
+  }
+}

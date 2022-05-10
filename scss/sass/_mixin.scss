@@ -1,0 +1,16 @@
+@import "../variables/variables";
+
+@mixin acomodar-final {
+  position: absolute;
+  bottom: 0px;
+}
+
+@mixin acomodarNav {
+  display: flex;
+  justify-content: space-between;
+  font-family: $fuenteTres;
+}
+
+@mixin separar {
+  margin-right: 2em;
+}

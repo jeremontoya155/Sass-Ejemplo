@@ -1,0 +1,143 @@
+.header-footer, footer, header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: red;
+  font-size: Verdana, Geneva, Tahoma, sans-serif; }
+  .header-footer a, footer a, header a {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .header-footer img, footer img, header img {
+    height: 2em;
+    width: 2em; }
+
+.header-footer, footer, header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: red;
+  font-size: Verdana, Geneva, Tahoma, sans-serif; }
+  .header-footer a, footer a, header a {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .header-footer img, footer img, header img {
+    height: 2em;
+    width: 2em; }
+
+footer {
+  position: absolute;
+  bottom: 0px; }
+
+.header-footer, footer, header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: red;
+  font-size: Verdana, Geneva, Tahoma, sans-serif; }
+  .header-footer a, footer a, header a {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .header-footer img, footer img, header img {
+    height: 2em;
+    width: 2em; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; }
+  header nav a {
+    margin-right: 2em;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; }
+
+@media (max-width: 500px) {
+  img {
+    width: 20px;
+    height: 50px; }
+  h1 {
+    font-size: 2em;
+    border: none; }
+  div {
+    width: 95%;
+    height: auto; }
+    div a {
+      font-size: 1.5em; }
+    div p {
+      font-size: 1em; }
+    div iframe {
+      width: 20em;
+      height: 15em; } }
+
+main {
+  width: 100%;
+  height: auto; }
+  main span h1 {
+    border: 3px red solid;
+    text-align: center;
+    font-size: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  main div {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+    main div h2 {
+      font-size: 3em;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    main div img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 35em;
+      height: 25em; }
+    main div p {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  @media (max-width: 500px) {
+    main img {
+      width: 70px;
+      height: 80px; } }
+
+@media (max-width: 500px) {
+  img {
+    width: 20px;
+    height: 50px; }
+  h1 {
+    font-size: 2em;
+    border: none; }
+  div {
+    width: 95%;
+    height: auto; }
+    div a {
+      font-size: 1.5em; }
+    div p {
+      font-size: 1em; }
+    div iframe {
+      width: 20em;
+      height: 15em; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  min-height: 100%;
+  position: relative; }
+
+body {
+  margin: 0;
+  margin-bottom: 5em; }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; }

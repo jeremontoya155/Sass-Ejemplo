@@ -1,0 +1,15 @@
+@import "../variables/variables";
+@import "../sass/extend";
+
+@import "../sass/mixin";
+header {
+  @extend .header-footer;
+  @include acomodarNav;
+
+  nav {
+    a {
+      @include separar;
+      font-family: $fuenteTres;
+    }
+  }
+}

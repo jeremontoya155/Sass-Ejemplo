@@ -1,0 +1,7 @@
+@import "../variables/variables";
+@import "../sass/extend";
+@import "../sass/mixin";
+footer {
+  @extend .header-footer;
+  @include acomodar-final;
+}
